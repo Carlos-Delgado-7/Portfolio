@@ -6,7 +6,7 @@ Welcome to the Data Analysis repository! This repository is dedicated to exercis
 
 ### Data Exploration
 
-In this section, we delve into the analysis of COVID-19 data using SQL. The following query provide insights into various aspects of the pandemic:
+In this dedicated section, we delve into the comprehensive analysis of COVID-19 data using SQL. The query presented here offers valuable insights into various facets of the pandemic, allowing for a nuanced understanding of the situation. Should you be interested in acquiring the data for seamless integration into your database server, you can conveniently access it through the following link: https://covid.ourworldindata.org/data/owid-covid-data.csv. This dataset serves as a rich resource for gaining in-depth knowledge and facilitating meaningful exploration of the ongoing global health crisis.
 
 #### Percentage of Population Affected by COVID-19
 
