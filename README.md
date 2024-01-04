@@ -33,3 +33,5 @@ CREATE VIEW View_PercentageGotCovidByCountry AS
         ) AS Sub1
     GROUP BY
         Sub1.location;
+
+![SQLdata](images/SQLdata.png)
