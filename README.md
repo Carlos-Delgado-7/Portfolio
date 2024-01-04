@@ -33,5 +33,11 @@ CREATE VIEW View_PercentageGotCovidByCountry AS
         ) AS Sub1
     GROUP BY
         Sub1.location;
+```
+#### Here is an example of the information visualized by the SQL script:
 
-![SQLdata](Images/SQLdata.png)
+<p align="center">
+  <img src="Images/SQLdata.png">
+</p>
+
+Feel free to explore and adapt these SQL scripts to gain valuable insights into COVID-19 data. You will find more queries and examples in the SQL file (SQL/Covid19 Data Exploration.sql). If you have any questions or suggestions, please don't hesitate to reach out. Happy analyzing!
