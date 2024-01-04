@@ -42,4 +42,4 @@ CREATE VIEW View_PercentageGotCovidByCountry AS
   <img src="Images/SQL.png">
 </p>
 
-Feel free to explore and adapt these SQL scripts to gain valuable insights into COVID-19 data. You will find more queries and examples in the SQL file (SQL/Covid19 Data Exploration.sql). If you have any questions or suggestions, please don't hesitate to reach out. Happy analyzing!
+Feel free to explore and adapt these SQL scripts to gain valuable insights into COVID-19 data. You will find more queries and examples in the SQL file ([SQL/Covid19 Data Exploration.sql](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/SQL/Covid19%20Data%20Exploration.sql)). If you have any questions or suggestions, please don't hesitate to reach out. Happy analyzing!
