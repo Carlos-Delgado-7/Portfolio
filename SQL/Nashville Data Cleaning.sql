@@ -57,7 +57,7 @@ WHERE CHARINDEX(',', PropertyAddress) > 0;
 UPDATE dbo.NashvilleHousing
 SET 
     PropertySplitAddress = LEFT(PropertyAddress, CHARINDEX(',', PropertyAddress) - 1),
-    PropertySplitAddress = LTRIM(RIGHT(PropertyAddress, LEN(PropertyAddress) - CHARINDEX(',', PropertyAddress)))
+    PropertySplitCity = LTRIM(RIGHT(PropertyAddress, LEN(PropertyAddress) - CHARINDEX(',', PropertyAddress)))
 WHERE CHARINDEX(',', PropertyAddress) > 0;
 
  
