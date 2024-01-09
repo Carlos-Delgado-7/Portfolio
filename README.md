@@ -43,3 +43,42 @@ CREATE VIEW View_PercentageGotCovidByCountry AS
 </p>
 
 Feel free to explore and adapt these SQL scripts to gain valuable insights into COVID-19 data. You will find more queries and examples in the SQL file ([SQL/Covid19 Data Exploration.sql](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/SQL/Covid19%20Data%20Exploration.sql)). If you have any questions or suggestions, please don't hesitate to reach out. Happy analyzing!
+
+### Data Cleaning
+
+The "NashvilleHousing" data cleaning project aims to enhance the data quality and consistency in the database by identifying and addressing potential issues or inconsistencies. Data cleaning is crucial for maintaining accurate and reliable information. The project involves tasks such as identifying duplicates, correcting formatting errors, handling missing values, normalizing data, validating accuracy, optimizing the schema, and maintaining thorough documentation. These efforts ensure that the database serves as a trustworthy and precise source for queries, analysis, and decision-making. Data cleaning is an ongoing process to address updates and new entries over time.
+
+#### Example of Breaking out Address into individual columns (Address, City, State)
+
+```sql
+-------------------------------------------------------------
+-- Breaking out Address into individual columns (Address, City, State)
+
+SELECT PropertyAddress FROM NashvilleHousing
+
+SELECT 
+    PropertyAddress,
+    LEFT(PropertyAddress, CHARINDEX(',', PropertyAddress) - 1) AS StreetName,
+    LTRIM(RIGHT(PropertyAddress, LEN(PropertyAddress) - CHARINDEX(',', PropertyAddress))) AS City
+FROM dbo.NashvilleHousing
+WHERE CHARINDEX(',', PropertyAddress) > 0;
+ 
+ 
+ ALTER TABLE NashvilleHousing Add PropertySplitAddress Nvarchar(255);
+ ALTER TABLE NashvilleHousing Add PropertySplitCity Nvarchar(255);
+ 
+UPDATE dbo.NashvilleHousing
+SET 
+    PropertySplitAddress = LEFT(PropertyAddress, CHARINDEX(',', PropertyAddress) - 1),
+    PropertySplitCity = LTRIM(RIGHT(PropertyAddress, LEN(PropertyAddress) - CHARINDEX(',', PropertyAddress)))
+WHERE CHARINDEX(',', PropertyAddress) > 0;
+
+ 
+SELECT PropertyAddress,PropertySplitAddress, PropertySplitCity  FROM NashvilleHousing
+
+```
+#### Here is an example of the data separation by Address and City :
+
+<p align="center">
+  <img src="Images/SQL.png">
+</p>
