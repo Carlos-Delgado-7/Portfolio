@@ -85,4 +85,4 @@ SELECT PropertyAddress,PropertySplitAddress, PropertySplitCity  FROM NashvilleHo
   <img src="Images/DataCleaning.png">
 </p>
 
-Feel free to explore and adapt these SQL scripts for the NashvilleHousing data cleaning project. You'll discover more queries and examples in the SQL file (SQL/Nashville Data Cleaning.sql). If you have any questions or suggestions specific to the NashvilleHousing data cleaning effort, please don't hesitate to reach out. Happy data cleaning!
+Feel free to explore and adapt these SQL scripts for the NashvilleHousing data cleaning project. You'll discover more queries and examples in the SQL file ([SQL/Nashville Data Cleaning.sql](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/SQL/Nashville%20Data%20Cleaning.sql)). If you have any questions or suggestions specific to the NashvilleHousing data cleaning effort, please don't hesitate to reach out. Happy data cleaning!
