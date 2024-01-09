@@ -80,5 +80,5 @@ SELECT PropertyAddress,PropertySplitAddress, PropertySplitCity  FROM NashvilleHo
 #### Here is an example of the data separation by Address and City :
 
 <p align="center">
-  <img src="Images/SQL.png">
+  <img src="Images/DataCleaning.png">
 </p>
