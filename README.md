@@ -48,6 +48,8 @@ Feel free to explore and adapt these SQL scripts to gain valuable insights into 
 
 The "NashvilleHousing" data cleaning project aims to enhance the data quality and consistency in the database by identifying and addressing potential issues or inconsistencies. Data cleaning is crucial for maintaining accurate and reliable information. The project involves tasks such as identifying duplicates, correcting formatting errors, handling missing values, normalizing data, validating accuracy, optimizing the schema, and maintaining thorough documentation. These efforts ensure that the database serves as a trustworthy and precise source for queries, analysis, and decision-making. Data cleaning is an ongoing process to address updates and new entries over time.
 
+The data used for this project can be found ([SQL/Data/Nashville Housing Data for Data Cleaning.xlsx](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/SQL/Data/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)).
+
 #### Example of Breaking out Address into individual columns (Address, City, State)
 
 ```sql
