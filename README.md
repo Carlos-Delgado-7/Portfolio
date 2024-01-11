@@ -86,3 +86,22 @@ SELECT PropertyAddress,PropertySplitAddress, PropertySplitCity  FROM NashvilleHo
 </p>
 
 Feel free to explore and adapt these SQL scripts for the NashvilleHousing data cleaning project. You'll discover more queries and examples in the SQL file ([SQL/Nashville Data Cleaning.sql](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/SQL/Nashville%20Data%20Cleaning.sql)). If you have any questions or suggestions specific to the NashvilleHousing data cleaning effort, please don't hesitate to reach out. Happy data cleaning!
+
+## EXCEL
+
+An interactive dashboard is currently being developed to analyze and visualize bicycle sales data. Within this project, key aspects such as average income, buyer ages, and the distance between the store and customers' places of residence will be highlighted. The data used for this analysis has undergone a process of treatment and cleaning to facilitate its manipulation, utilizing Excel. Below is a visual representation of the final dashboard.
+
+<p align="center">
+  <img src="Images/Bikes.png">
+</p>
+
+If you would like to download the file to review the processes undertaken during the data cleaning, you can find it here: [link] (insert the actual link here).
+
+This dashboard aims to provide an effective visual tool for analyzing and understanding bicycle sales patterns, thereby facilitating data-driven decision-making. Meticulous attention to data preparation and dashboard design ensures a clear and meaningful presentation of key information.
+
+
+
+
+
+
+
