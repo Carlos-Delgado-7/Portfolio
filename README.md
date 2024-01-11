@@ -95,7 +95,7 @@ An interactive dashboard is currently being developed to analyze and visualize b
   <img src="Images/Bikes.png">
 </p>
 
-If you would like to download the file to review the processes undertaken during the data cleaning, you can find it here: [link] (insert the actual link here).
+If you would like to download the file to review the processes undertaken during the data cleaning, you can find it here: ([Excel/Excel Project Dataset.xlsx](https://github.com/Carlos-Delgado-7/Portfolio-Data-Analyst/blob/main/Excel/Excel%20Project%20Dataset.xlsx)).
 
 This dashboard aims to provide an effective visual tool for analyzing and understanding bicycle sales patterns, thereby facilitating data-driven decision-making. Meticulous attention to data preparation and dashboard design ensures a clear and meaningful presentation of key information.
 
